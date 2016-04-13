@@ -21,6 +21,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         super.viewDidLoad()
         
         mapConnection.delegate = self
+        //HI
         
         
     }
@@ -32,7 +33,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     
     
           @IBAction func dismissBtn(sender: UIBarButtonItem) {
-        dismissViewControllerAnimated(true, completion: nil)
+            dismissViewControllerAnimated(true, completion: nil)
     
         }
 
