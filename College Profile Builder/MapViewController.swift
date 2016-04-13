@@ -21,7 +21,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         super.viewDidLoad()
         
         mapConnection.delegate = self
-        //HI
+        
         
         
     }
